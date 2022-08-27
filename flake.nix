@@ -7,6 +7,7 @@
 
       templateNames = [
         "nix"
+        "vim"
       ];
 
       mkTemplate = name:

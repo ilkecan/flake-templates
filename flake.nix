@@ -1,8 +1,21 @@
 {
-  description = "A collection of flake templates";
+  outputs = { self, nixpkgs }:
+    let
+      inherit (nixpkgs.lib)
+        genAttrs
+      ;
 
-  outputs = { self }: {
-    templates = {
+      templateNames = [
+        "nix"
+      ];
+
+      mkTemplate = name:
+        {
+          description = name;
+          path = ./templates/${name};
+        };
+    in
+    {
+      templates = genAttrs templateNames mkTemplate;
     };
-  };
 }

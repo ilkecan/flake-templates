@@ -11,6 +11,6 @@
     };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: {
+  outputs = { self, ... }@inputs: {
   };
 }

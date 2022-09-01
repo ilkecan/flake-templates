@@ -16,9 +16,9 @@
     };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs:
+  outputs = { self, ... }@inputs:
     let
-      inherit (nixpkgs.lib)
+      inherit (inputs.nixpkgs.lib)
         composeManyExtensions
         recursiveUpdate
       ;

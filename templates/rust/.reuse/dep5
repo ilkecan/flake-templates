@@ -3,7 +3,8 @@ Upstream-Name: placeholder
 Upstream-Contact: ilkecan <ilkecan@protonmail.com>
 Source: https://github.com/ilkecan/placeholder
 
-Files: *.lock
+Files:
+  *.lock
 Copyright: 2022 ilkecan <ilkecan@protonmail.com>
 License: Unlicense
 

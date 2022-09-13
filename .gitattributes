@@ -1,0 +1,14 @@
+# end-of-line normalization
+* text=auto
+
+## normalize EOL and use native line endings on checkout
+*.nix text
+*.txt text
+.editorconfig text
+.gitattributes text
+.gitignore text
+.reuse/dep5 text
+flake.lock text
+
+# linguist
+*.lock linguist-generated=true

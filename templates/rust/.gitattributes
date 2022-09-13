@@ -1,0 +1,22 @@
+# end-of-line normalization
+* text=auto
+
+## normalize EOL and use native line endings on checkout
+*.md text
+*.nix text
+*.rs text
+*.toml text
+*.txt text
+.editorconfig text
+.gitattributes text
+.gitignore text
+.reuse/dep5 text
+Cargo.lock text
+flake.lock text
+
+# diff
+*.md diff=markdown
+*.rs diff=rust
+
+# linguist
+*.lock linguist-generated=true

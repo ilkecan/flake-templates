@@ -8,9 +8,10 @@ Copyright: 2022 ilkecan <ilkecan@protonmail.com>
 License: Unlicense
 
 Files:
+  *.editorconfig
+  *.gitattributes
   *.gitignore
   *.md
-  .editorconfig
 Copyright: 2022 ilkecan <ilkecan@protonmail.com>
 License: CC-BY-SA-4.0
 

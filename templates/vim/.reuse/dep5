@@ -5,6 +5,7 @@ Source: https://github.com/ilkecan/placeholder-vim
 
 Files:
   *.editorconfig
+  *.gitattributes
   *.md
 Copyright: 2022 ilkecan <ilkecan@protonmail.com>
 License: CC-BY-SA-4.0

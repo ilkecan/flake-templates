@@ -11,3 +11,10 @@
 
 # diff
 *.md diff=markdown
+
+# creating an archive
+*.md export-ignore
+*.txt export-ignore
+.editorconfig export-ignore
+.gitattributes export-ignore
+.reuse/dep5 export-ignore

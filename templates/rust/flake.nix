@@ -3,8 +3,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
     flake-utils.url = "github:numtide/flake-utils";
     nix-filter.url = "github:numtide/nix-filter";
-    nix-utils = {
-      url = "github:ilkecan/nix-utils";
+    nix-alacarte = {
+      url = "github:ilkecan/nix-alacarte";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -27,7 +27,7 @@
         eachDefaultSystem
       ;
 
-      inherit (inputs.nix-utils.lib)
+      inherit (inputs.nix-alacarte.lib)
         mkOverlay
       ;
 

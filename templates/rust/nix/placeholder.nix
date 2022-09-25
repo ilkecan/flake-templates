@@ -5,7 +5,7 @@
   crate2nix ? inputs.crate2nix,
   lib ? inputs.nixpkgs.lib,
   nix-filter ? inputs.nix-filter.lib,
-  nix-utils ? inputs.nix-utils.libs.${system},
+  nix-alacarte ? inputs.nix-alacarte.libs.${system},
 }:
 
 let
@@ -13,7 +13,7 @@ let
     inDirectory
   ;
 
-  inherit (nix-utils)
+  inherit (nix-alacarte)
     sourceOf
   ;
 
